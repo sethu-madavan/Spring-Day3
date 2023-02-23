@@ -28,18 +28,4 @@ public class StudentController {
 	public Student addStudent(@RequestBody Student obj){
 		return studserv.addStudent(obj) ;
 	}
-	
-
-//	@GetMapping("/view/{id}")
-//	public Student showStudents(@PathVariable("id") Long id){
-//		return studserv.findById(id);
-//	}
-//	
-//	@DeleteMapping("/del/{id}")
-//	public String delStudent(@PathVariable("id") Long id){
-//		studserv.delStudent(id);
-//		return "Successfully deleted";
-	}
-	
-	
 }
